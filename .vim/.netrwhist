@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/zmx/.config/autostart'
+let g:netrw_dirhist_2='/usr/src/linux-headers-3.0.0-12/arch/x86'
+let g:netrw_dirhist_3='/proc/2339/fd'
+let g:netrw_dirhist_4='/proc/1711/root'
+let g:netrw_dirhist_5='/home/zmx/.config/autostart'
+let g:netrw_dirhist_6='/home/zmx/code/programming_language'
+let g:netrw_dirhist_7='/home/zmx/wallproxy/local'
+let g:netrw_dirhist_8='/home/zmx/code/programming_language/hw3'
+let g:netrw_dirhist_9='/home/zmx/.config/openbox'

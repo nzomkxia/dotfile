@@ -1,0 +1,12 @@
+:iabbr imain int<CR>main(int argc, char **argv)<cr>{<cr><^_^>;<cr>return 0;<cr>}<esc>3k
+:iabbr ifor for(;;)<cr>{<cr><cr>}<C-j>
+:iabbr iwhile while(<^_^>)<cr>{<cr><^_^><cr>}<esc>4k
+:iabbr iif if(<^_^>)<cr>{<cr><^_^><cr>}<esc>4k
+:iabbr elif else if(<^_^>)<cr>{<cr><^_^><cr>}<esc>4k
+:iabbr ielse else<cr>{<cr><^_^><cr>}<esc>3k
+:iabbr iswitch switch(<^_^>)<cr>{<cr>case <^_^>:<cr><^_^>;<cr>break;<cr>case <^_^>:<cr><^_^>;<cr>break;<cr>default :<cr>break;<cr>}<esc>10k
+:iabbr icase case <^_^>:<cr><^_^>;<cr>break;<esc>2k0
+:iabbr #d #define
+:iabbr #i #include
+:iabbr #b /********************************************************
+:iabbr #e  ********************************************************/
