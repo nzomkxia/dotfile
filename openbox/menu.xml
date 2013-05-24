@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
+	<menu id="root-menu" label="Openbox 3">
+		<item label="Ubuntu Menu">
+			<action name="Execute">
+				<execute>
+				</execute>
+			</action>
+		</item>
+		<separator/>
+		<item label="Terminal">
+			<action name="Execute">
+				<execute>
+					gnome-terminal
+				</execute>
+			</action>
+		</item>
+		<item label="google chrome">
+			<action name="Execute">
+				<execute>
+					google-chrome
+				</execute>
+			</action>
+		</item>
+		<item label="firefox">
+			<action name="Execute">
+				<execute>
+					firefox
+				</execute>
+			</action>
+		</item>
+		<item label="virtualbox">
+			<action name="Execute">
+				<execute>
+					virtualbox
+				</execute>
+			</action>
+		</item>
+		<item label="vimplayer">
+			<action name="Execute">
+				<execute>
+					vmplayer
+				</execute>
+			</action>
+		</item>
+		<item label="drracket">
+			<action name="Execute">
+				<execute>
+					drracket
+				</execute>
+			</action>
+		</item>
+		<item label="nixnote">
+			<action name="Execute">
+				<execute>
+					nixnote
+				</execute>
+			</action>
+		</item>
+        <item label="stardict">
+            <action name="Execute">
+                <execute>
+                    stardict
+                </execute>
+            </action>
+        </item>
+		<!-- This requires the presence of the 'menu' package to work -->
+		<separator/>
+		<menu id="root-menu-465024" label="Apply">
+			<menu id="root-menu-465024-6993" label="Picture">
+				<item label="Gpicview">
+					<action name="Execute">
+						<execute>
+							gpicview
+						</execute>
+					</action>
+				</item>
+				<item label="Pdf-reader">
+					<action name="Execute">
+						<execute>
+							evince
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="root-menu-465024-325130" label="Text">
+				<item label="Gedit">
+					<action name="Execute">
+						<execute>
+							gedit
+						</execute>
+					</action>
+				</item>
+				<item label="Chmsee">
+					<action name="Execute">
+						<execute>
+							chmsee
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="root-menu-465024-235258" label="Open Office">
+				<item label="Openoffice Writer">
+					<action name="Execute">
+						<execute>
+							openoffice.org -writer
+						</execute>
+					</action>
+				</item>
+				<item label="Openoffice Impress">
+					<action name="Execute">
+						<execute>
+							openoffice.org -impress
+						</execute>
+					</action>
+				</item>
+				<item label="Openoffice Calc">
+					<action name="Execute">
+						<execute>
+							openoffice.org -calc
+						</execute>
+					</action>
+				</item>
+				<item label="Openoffice Draw">
+					<action name="Execute">
+						<execute>
+							openoffice.org -draw
+						</execute>
+					</action>
+				</item>
+				<item label="Openoffice Math">
+					<action name="Execute">
+						<execute>
+							openoffice.org -math
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="root-menu-465024-77593" label="Attachment">
+				<item label="计算器">
+					<action name="Execute">
+						<execute>
+							gcalctool
+						</execute>
+					</action>
+				</item>
+				<item label="tomboy">
+					<action name="Execute">
+						<execute>
+							tomboy
+						</execute>
+					</action>
+				</item>
+				<item label="yelp">
+					<action name="Execute">
+						<execute>
+							yelp
+						</execute>
+					</action>
+				</item>
+			</menu>
+		</menu>
+		<menu id="root-menu-765941" label="Multimedia">
+			<item label="Vlc media player">
+				<action name="Execute">
+					<execute>
+						vlc
+					</execute>
+				</action>
+			</item>
+            <item label="GNOME Player">
+              <action name="Execute">
+                  <execute>
+                      gnome-mplayer
+                  </execute>
+              </action>
+            </item>
+            <item label="Smplayer">
+              <action name="Execute">
+                  <execute>
+                      smplayer
+                  </execute>
+              </action>
+            </item>
+		</menu>
+        <menu id="root-menu-12345" label="FileSystem">
+           <item label="Home">
+               <action name="Execute">
+                   <execute>
+                      pcmanfm ~/
+                   </execute>
+               </action>
+           </item>
+           <item label="Downloads">
+               <action name="Execute">
+                   <execute>
+                      pcmanfm ~/Downloads
+                   </execute>
+               </action>
+           </item>
+           <item label="Pictures">
+               <action name="Execute">
+                   <execute>
+                      pcmanfm ~/Pictures
+                   </execute>
+               </action>
+           </item>
+           <item label="Desktop">
+               <action name="Execute">
+                   <execute>
+                      pcmanfm ~/Desktop
+                   </execute>
+               </action>
+           </item>
+        </menu>
+		<menu id="root-menu-63051" label="Network">
+			<item label="Ubuntu One">
+				<action name="Execute">
+					<execute>
+						ubuntuone-control-panel-gtk
+					</execute>
+				</action>
+			</item>
+			<item label="Transmission">
+				<action name="Execute">
+					<execute>
+						transmission
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<menu id="root-menu-2320" label="Preference">
+			<item label="Reconfigure">
+				<action name="Reconfigure"/>
+			</item>
+			<menu id="root-menu-2320-64216" label="tint2">
+				<item label="Edit tint2rc">
+					<action name="Execute">
+						<execute>
+							gedit ~/.config/tint2/tint2rc
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="root-menu-2320-12329" label="conky">
+				<item label="Edit conkyrc">
+					<action name="Execute">
+						<execute>
+							gedit ~/.conkyrc
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<menu id="root-menu-2320-69418" label="Openbox-session">
+				<item label="Edit rc.xml">
+					<action name="Execute">
+						<execute>
+							gksudo gedit ~/.config/openbox/rc.xml
+						</execute>
+					</action>
+				</item>
+				<item label="Edit menu.xml">
+					<action name="Execute">
+						<execute>
+							gksudo gedit ~/.config/openbox/menu.xml
+						</execute>
+					</action>
+				</item>
+				<item label="Edit autostart.sh">
+					<action name="Execute">
+						<execute>
+							gksudo gedit ~/.config/openbox/autostart.sh
+						</execute>
+					</action>
+				</item>
+				<item label="Openbox-menu">
+					<action name="Execute">
+						<execute>
+							obmenu
+						</execute>
+					</action>
+				</item>
+			</menu>
+		</menu>
+		<item label="ObConf">
+			<action name="Execute">
+				<execute>
+					obconf
+				</execute>
+			</action>
+		</item>
+		<separator/>
+		<menu id="root-menu-85120" label="System">
+			<menu id="root-menu-85120-844733" label="截屏工具">
+				<item label="截取选定区域">
+					<action name="Execute">
+						<execute>
+							gnome-screenshot -a
+						</execute>
+					</action>
+				</item>
+				<item label="5秒后截取全屏">
+					<action name="Execute">
+						<execute>
+							gnome-screenshot  --delay=5
+						</execute>
+					</action>
+				</item>
+				<item label="3秒后截取窗口无边框">
+					<action name="Execute">
+						<execute>
+							gnome-screenshot -w -B --delay=3
+						</execute>
+					</action>
+				</item>
+				<item label="3秒后截取窗口">
+					<action name="Execute">
+						<execute>
+							gnome-screenshot -w  --delay=3
+						</execute>
+					</action>
+				</item>
+			</menu>
+			<item label="Pcmanfm  /">
+				<action name="Execute">
+					<execute>
+						pcmanfm /
+					</execute>
+				</action>
+			</item>
+			<item label="look-for-file">
+				<action name="Execute">
+					<execute>
+						gnome-search-tool
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-51214" label="Power">
+			<item label="Reboot">
+				<action name="Execute">
+					<execute>
+						gksudo shutdown -r now
+					</execute>
+				</action>
+			</item>
+			<item label="Shutdown">
+				<action name="Execute">
+					<execute>
+						gksudo  shutdown  -h   now
+					</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<item label="Exit">
+			<action name="Exit"/>
+		</item>
+	</menu>
+</openbox_menu>
